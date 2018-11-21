@@ -14,7 +14,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 	if msg == "" {
 		msg = ":( SIMPLE_MSG variable not defined"
 	}
-	fmt.Fprintf(w, "alibaba, %s\n", msg)
+	fmt.Fprintf(w, "EDAS, %s\n", msg)
 }
 
 func main() {
